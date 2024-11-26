@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../.eslintrc.base.json"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": ["warn", {
+      "allowArgumentsExplicitlyTypedAsAny": true
+    }]
+  }
+} 
